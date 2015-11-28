@@ -3,11 +3,14 @@ public class BruchDemo {
 	
 	private int Nenner;
 	private int Zähler;
+	public static int counter = 0;
 	
 	public BruchDemo (int Nenner, int Zähler) {
 		this.Nenner = Nenner;
 		this.Zähler = Zähler;
+		counter++;
 	}
+
 	
 	public int getNenner() {
 		return Nenner;
